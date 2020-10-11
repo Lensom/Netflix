@@ -1,4 +1,4 @@
-https://netflix.lensom.vercel.app/
+Demo: https://netflix.lensom.vercel.app/
 
 ## Start the project
 
