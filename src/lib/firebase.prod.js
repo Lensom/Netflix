@@ -4,18 +4,18 @@ import 'firebase/auth';
 import { seedDatabase } from '../seed';
 
 const config = {
-  apiKey: 'AIzaSyALngPxxSOVmmdFzZ8n8o6Tdk3i4xPU1Zg',
-  authDomain: 'netflix-837c2.firebaseapp.com',
-  databaseURL: 'https://netflix-837c2.firebaseio.com',
-  projectId: 'netflix-837c2',
-  storageBucket: 'netflix-837c2.appspot.com',
-  messagingSenderId: '8832089661',
-  appId: '1:8832089661:web:67fc8c00e23343e81df454',
-  measurementId: 'G-NVT15SE7TV',
+  apiKey: 'AIzaSyB39yttOev6Ke8-goByUdQaKHBoDvvnnBI',
+  authDomain: 'netflix-7dfda.firebaseapp.com',
+  databaseURL: 'https://netflix-7dfda.firebaseio.com',
+  projectId: 'netflix-7dfda',
+  storageBucket: 'netflix-7dfda.appspot.com',
+  messagingSenderId: '980571175481',
+  appId: '1:980571175481:web:8ca5452f6d12083f362be8',
+  measurementId: 'G-ER9X4GGFE2',
 };
 
 const firebase = Firebase.initializeApp(config);
 
-seedDatabase(firebase);
+// seedDatabase(firebase);
 
 export { firebase };
